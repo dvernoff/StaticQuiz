@@ -1,0 +1,115 @@
+"Phrases"
+{
+	////////////////////
+	//Сообщения в чате//
+	////////////////////
+
+	"CHAT_PREFIX"
+	{
+		"ru"			"{yellowgreen}[Викторина]{white}"
+	}
+	
+	"CHAT_WRONG"
+	{
+		"ru"			"Нельзя отвечать на свой же вопрос!"
+	}
+	
+	"CHAT_VIP_YES"
+	{
+		"ru"			"Вы ответили верно, но у вас и так есть {yellowgreen}VIP права{white}!"
+	}
+
+	"CHAT_PLAYER_WIN"
+	{
+		"#format"		"{1:N},{2:i},{3:s},{4:s}"
+		"ru"			"Игрок {yellowgreen}{1}{white} победил в викторине, и получил {yellowgreen}{2} {3}{white}! Ответ был: {blue}{4}{white}."
+	}
+	
+	"CHAT_PLAYER_VIPWIN"
+	{
+		"#format"		"{1:N},{2:s},{3:s},{4:i},{5:s}"
+		"ru"			"Игрок {yellowgreen}{1}{white} победил в викторине, и получил {yellowgreen}{2} {3}{white} на {yellowgreen}{4}{white} секунд! Ответ был: {blue}{5}{white}."
+	}
+
+	"CHAT_ERRORFATAL"
+	{
+		"ru"			"{blue}Произошла ошибка Код: #1"
+	}
+	
+	"CHAT_ERRACCESS"
+	{
+		"ru"			"Нет прав для использования команды {yellowgreen}!squiz"
+	}
+	
+	"CHAT_INGAME"
+	{
+		"ru"			"Игра и так не запущена!"
+	}
+
+	"CHAT_ADMIN_CANCEL"
+	{
+		"#format"		"{1:N}"
+		"ru"			"Администратор {yellowgreen}{1}{white} отменил свой вопрос!"
+	}
+
+	"CHAT_ADMIN_RETRY"
+	{
+		"#format"		"{1:N},{2:s},{3:i},{4:s}"
+		"ru"			"Администратор {yellowgreen}{1}{white} повторяет вопрос: {yellowgreen}{2}{white}, награда: {yellowgreen}{3} {4}{white}."
+	}
+
+	"CHAT_COMMAND_ERROR"
+	{
+		"ru"			"Вы ввели не верное кол-во аргументов, пример команды: {yellowgreen}!squiz ТИП КОЛ-ВО ВОПРОС ОТВЕТ | (вопрос и ответ в ковычках)"
+	}
+
+	"CHAT_MAXARGS"
+	{
+		"ru"			"Вы ввели много символов в аргументе {yellowgreen}ВОПРОС{white}!"
+	}
+
+	"CHAT_COMMAND_2ERROR"
+	{
+		"#format"		"{1:i}"
+		"ru"			"Вы совершили где то ошибку, в аргументе {yellowgreen}НАГРАДА{white} не может быть букв, и число должно быть от 1 до {1}."
+	}
+
+	"CHAT_TYPE_LVL_ERROR"
+	{
+		"ru"			"Вы указали тип lvl но мы не обнаружили запущенного Levels Ranks Core!"
+	}
+
+	"CHAT_TYPE_SHOP_ERROR"
+	{
+		"ru"			"Вы указали тип shop но мы не обнаружили запущенного Shop Core!"
+	}
+	
+	"CHAT_TYPE_VIP_ERROR"
+	{
+		"ru"			"Вы указали тип vip|group но мы не обнаружили запущенного Vip Core!"
+	}
+
+	"CHAT_TYPE_ARG_ERROR"
+	{
+		"ru"			"Вы совершили где то ошибку, в аргументе (ТИП НАГРАДЫ) может быть только (shop или lvl или vip|group)"
+	}
+
+	"CHAT_START_GAME"
+	{
+		"#format"		"{1:N},{2:s},{3:i},{4:s}"
+		"ru"			"Администратор {yellowgreen}{1}{white} запустил викторину!\n\n{white} ——— Вопрос: {yellowgreen}{2}\n{white} Ответ нужно написать в общий чат, с маленькой буквы и без ошибок!\nНаграда: {yellowgreen}{3} {4}"
+	}
+	
+	"CHAT_ERRVIPGR"
+	{
+		"#format"		"{1:s}"
+		"ru"			"Вы совершили где то ошибку, VIP группы {1} не обнаружено в groups.ini"
+	}
+	
+	"CHAT_START_VIPGAME"
+	{
+		"#format"		"{1:N},{2:s},{3:s},{4:s},{5:i}"
+		"ru"			"Администратор {yellowgreen}{1}{white} запустил викторину!\n{white}——— Вопрос: {yellowgreen}{2}{white}\nОтвет нужно написать в общий чат, с маленькой буквы и без ошибок!\nНаграда: {yellowgreen}{3} {4} на {5} секунд!"
+	}
+
+}

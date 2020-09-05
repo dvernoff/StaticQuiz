@@ -1,0 +1,139 @@
+/*
+	Цвета для использования:
+	Colors for use:
+	* {DEFAULT}		- Белый в CSGO, светло-оранжевый в CSS
+	* {WHITE}		- Белый
+	* {RED}			- Красный
+	* {TEAM}		- Светло-фиолетовый в CSGO, зелёный в CSS
+	* {GREEN}		- Зеленый
+	* {LIME}		- Лаймовый
+	* {LIGHTGREEN}	- Ярко-зеленый
+	* {LIGHTRED}	- Ярко-красный
+	* {GRAY}		- Серый
+	* {LIGHTOLIVE}	- Ярко-оливковый
+	* {OLIVE}		- Оливковый
+	* {BLUEGREY}	- Серо-голубой
+	* {LIGHTBLUE}	- Ярко-синий
+	* {BLUE}		- Синий
+	* {PURPLE}		- Фиолетовый
+	* {LIGHTRED2}	- Светло-красный
+
+	RU: Изменять цвет можно только во фразах где есть приставка CHAT_
+	EN: You can change color only in phrases where there is a prefix CHAT_
+*/
+
+"Phrases"
+{
+	////////////////////
+	//Сообщения в чате//
+	////////////////////
+
+	"CHAT_PREFIX"
+	{
+		"ru"			"{LIGHTGREEN}[Викторина]{DEFAULT}"
+	}
+	
+	"CHAT_WRONG"
+	{
+		"ru"			"Нельзя отвечать на свой же вопрос!"
+	}
+	
+	"CHAT_VIP_YES"
+	{
+		"ru"			"Вы ответили верно, но у вас и так есть {LIGHTGREEN}VIP права{DEFAULT}!"
+	}
+
+	"CHAT_PLAYER_WIN"
+	{
+		"#format"		"{1:N},{2:i},{3:s},{4:s}"
+		"ru"			"Игрок {LIGHTGREEN}{1}{DEFAULT} победил в викторине, и получил {LIGHTGREEN}{2} {3}{DEFAULT}! Ответ был: {BLUE}{4}{DEFAULT}."
+	}
+	
+	"CHAT_PLAYER_VIPWIN"
+	{
+		"#format"		"{1:N},{2:s},{3:s},{4:i},{5:s}"
+		"ru"			"Игрок {LIGHTGREEN}{1}{DEFAULT} победил в викторине, и получил {LIGHTGREEN}{2} {3}{DEFAULT} на {LIGHTGREEN}{4}{DEFAULT} секунд! Ответ был: {BLUE}{5}{DEFAULT}."
+	}
+
+	"CHAT_ERRORFATAL"
+	{
+		"ru"			"{BLUE}Произошла ошибка Код: #1"
+	}
+	
+	"CHAT_ERRACCESS"
+	{
+		"ru"			"Нет прав для использования команды {LIGHTGREEN}!squiz"
+	}
+	
+	"CHAT_INGAME"
+	{
+		"ru"			"Игра и так не запущена!"
+	}
+
+	"CHAT_ADMIN_CANCEL"
+	{
+		"#format"		"{1:N}"
+		"ru"			"Администратор {LIGHTGREEN}{1}{DEFAULT} отменил свой вопрос!"
+	}
+
+	"CHAT_ADMIN_RETRY"
+	{
+		"#format"		"{1:N},{2:s},{3:i},{4:s}"
+		"ru"			"Администратор {LIGHTGREEN}{1}{DEFAULT} повторяет вопрос: {LIGHTGREEN}{2}{DEFAULT}, награда: {LIGHTGREEN}{3} {4}{DEFAULT}."
+	}
+
+	"CHAT_COMMAND_ERROR"
+	{
+		"ru"			"Вы ввели не верное кол-во аргументов, пример команды: {LIGHTGREEN}!squiz ТИП КОЛ-ВО ВОПРОС ОТВЕТ | (вопрос и ответ в ковычках)"
+	}
+
+	"CHAT_MAXARGS"
+	{
+		"ru"			"Вы ввели много символов в аргументе {LIGHTGREEN}ВОПРОС{DEFAULT}!"
+	}
+
+	"CHAT_COMMAND_2ERROR"
+	{
+		"#format"		"{1:i}"
+		"ru"			"Вы совершили где то ошибку, в аргументе {LIGHTGREEN}НАГРАДА{DEFAULT} не может быть букв, и число должно быть от 1 до {1}."
+	}
+
+	"CHAT_TYPE_LVL_ERROR"
+	{
+		"ru"			"Вы указали тип lvl но мы не обнаружили запущенного Levels Ranks Core!"
+	}
+
+	"CHAT_TYPE_SHOP_ERROR"
+	{
+		"ru"			"Вы указали тип shop но мы не обнаружили запущенного Shop Core!"
+	}
+	
+	"CHAT_TYPE_VIP_ERROR"
+	{
+		"ru"			"Вы указали тип vip|group но мы не обнаружили запущенного Vip Core!"
+	}
+
+	"CHAT_TYPE_ARG_ERROR"
+	{
+		"ru"			"Вы совершили где то ошибку, в аргументе (ТИП НАГРАДЫ) может быть только (shop или lvl или vip|group)"
+	}
+
+	"CHAT_START_GAME"
+	{
+		"#format"		"{1:N},{2:s},{3:i},{4:s}"
+		"ru"			"Администратор {LIGHTGREEN}{1}{DEFAULT} запустил викторину!\n\n{DEFAULT} ——— Вопрос: {LIGHTGREEN}{2}\n{DEFAULT} Ответ нужно написать в общий чат, с маленькой буквы и без ошибок!\nНаграда: {LIGHTGREEN}{3} {4}"
+	}
+	
+	"CHAT_ERRVIPGR"
+	{
+		"#format"		"{1:s}"
+		"ru"			"Вы совершили где то ошибку, VIP группы {1} не обнаружено в groups.ini"
+	}
+	
+	"CHAT_START_VIPGAME"
+	{
+		"#format"		"{1:N},{2:s},{3:s},{4:s},{5:i}"
+		"ru"			"Администратор {LIGHTGREEN}{1}{DEFAULT} запустил викторину!\n{DEFAULT}——— Вопрос: {LIGHTGREEN}{2}{DEFAULT}\nОтвет нужно написать в общий чат, с маленькой буквы и без ошибок!\nНаграда: {LIGHTGREEN}{3} {4} на {5} секунд!"
+	}
+
+}
